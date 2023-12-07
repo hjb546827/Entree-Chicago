@@ -32,8 +32,8 @@ def get_restaurant_city(index):
     return file[file["Index"] == index]["RestaurantCity"].values[0]
 
 
-# 读取session2.csv
-ratings = pd.read_csv('session2.csv')
+# 读取session.csv
+ratings = pd.read_csv('session.csv')
 
 # 创建pandas数据帧
 df = pd.DataFrame(ratings,
